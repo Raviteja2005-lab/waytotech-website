@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>map</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.search-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  border: none;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+.search-bar .magnifying-glass {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://www.flaticon.com/free-icons/magnifying-glass"); /* Replace with the actual URL of your magnifying glass icon */
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="search-bar">
+  <input type="text" placeholder="Search">
+  <div class="magnifying-glass"></div>
+</div>
+<img src="map.jpg" alt="Image" style="width: 100%;">
+</body>
+</html>
